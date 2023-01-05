@@ -88,8 +88,7 @@ export function App() {
           <Filter value={filter} onChange={handleFilter} />
           <ContactList
             contacts={visibleContacts}
-            onDeleteContact={deleteContact}
-          />
+            onDeleteContact={deleteContact}/>
         </Section>
       </Container>
    
